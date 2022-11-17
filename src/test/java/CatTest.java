@@ -42,12 +42,7 @@ public class CatTest {
         cat = new Cat(feline);
     }
 
-    @Test
-    public void getSoundTest() throws Exception {
-        String expected = "Мяу";
-        String actual = cat.getSound();
-        Assert.assertEquals(expected, actual);
-    }
+
 
     @Test
     public void getFoodTest() throws Exception{
